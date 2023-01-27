@@ -1,0 +1,86 @@
+	/* Style sheet created by: Zedekiah LuGrain, 11/27/2018 */
+	
+	/* Style for body specifies a background color */
+	body {
+		background-image: url("https://torange.biz/photofx/177/8/technology-background-tech-abstract-technology-texture-techno-modern-computer-177137.jpg");
+		background-attachment: fixed;
+		background-repeat: repeat;
+		background-position: 50% 50%
+	}
+	
+	/* Style for container centers the page and sets the element width */
+	#container {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	/* Style for header specifies top and bottom margins, background color, rounded border, shadow and alignment */
+	header {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		background-color: #010101;
+		border-radius: 10px;
+		box-shadow: 12px 12px 12px #404040;
+		text-align: center;
+	}
+	
+	/*Style for nav specifies text properties, padding, margins and borders */
+	nav {
+		background-color: #010101;
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-align: center;
+		padding: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-radius: 20px;
+		
+	}
+	
+	/*style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
+	main {
+		display: block;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 1em;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding: 20px;
+		border-radius: 10px;
+		background-color: #FFFFFF;
+		box-shadow: 12px 12px 12px #404040;
+	}
+	
+	/*Style for fotter specifies font size, text alignment, and top margin */
+	footer {
+		background-color: #FFFFFF;
+		font-size: 0.70em;
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+	 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+	/* The remaining are for and general references. The two "." ones refer to a class and need to be used with a "class=" statement in the beginning tag. For example a floatleft applied to an image tag would start with <img class ="floatleft" src... The words "floatleft" and "floatright" are not html reserved words, but rather made up by someone to indicate what they do. */
+	
+	.floatleft {
+		float: left;
+		padding-right: 20px;
+	}
+	.floatright {
+		float: right;
+		padding-right: 20px;
+	}
+
